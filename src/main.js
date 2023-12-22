@@ -13,6 +13,12 @@ import InputText from 'primevue/inputtext'
 import InputNumber from 'primevue/inputnumber'
 import Dropdown from 'primevue/dropdown'
 import Checkbox from 'primevue/checkbox'
+import Textarea from 'primevue/textarea'
+import Calendar from 'primevue/calendar'
+import RadioButton from 'primevue/radiobutton'
+import Dialog from 'primevue/dialog'
+
+import ColorPicker from 'primevue/colorpicker'
 
 const app = createApp(App)
 
@@ -26,5 +32,9 @@ app.component('InputText', InputText)
 app.component('InputNumber', InputNumber)
 app.component('Dropdown', Dropdown)
 app.component('Checkbox', Checkbox)
-
+app.component('Textarea', Textarea)
+app.component('Calendar', Calendar)
+app.component('ColorPicker', ColorPicker)
+app.component('RadioButton', RadioButton)
+app.component('Dialog', Dialog)
 app.mount('#app')
